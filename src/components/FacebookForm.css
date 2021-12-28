@@ -1,0 +1,89 @@
+.card1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  position: static;
+}
+body {
+  background-color: rgb(231, 236, 243);
+}
+
+.fac1 {
+  color: blue;
+}
+.fac2 {
+  display: none;
+}
+.p2 {
+  font-size: 15px;
+}
+.email {
+  width: 350px;
+  height: 40px;
+  background-color: rgb(247, 242, 242);
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: grey;
+}
+.pass {
+  background-color: rgb(247, 242, 242);
+  height: 40px;
+  width: 350px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: grey;
+}
+
+.btn1 {
+  color: white;
+  background-color: blue;
+  height: 40px;
+  width: 350px;
+  border-radius: 6px;
+  border-color: blue;
+}
+
+.p2 {
+  color: rgb(83, 175, 206);
+}
+.btn2 {
+  color: white;
+  background-color: rgb(69, 211, 69);
+  height: 40px;
+  border-radius: 6px;
+  border-color: rgb(69, 211, 69);
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .card1 {
+    box-shadow: 0 2px 6px 0;
+    max-width: 700px;
+    max-height: 1000px;
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 710px;
+    margin-top: -250px;
+    background-color: white;
+  }
+  body {
+    background-color: rgb(231, 236, 243);
+  }
+
+  .p1 {
+    text-align: left;
+  }
+  .fac1 {
+    margin-top: 250px;
+    margin-left: 150px;
+    color: blue;
+    font-size: 60px;
+  }
+  .fac2 {
+    margin-left: 150px;
+    display: block;
+    font-size: 30px;
+  }
+}
